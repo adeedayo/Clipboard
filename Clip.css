@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+*,::before,::after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  
+  font-family: 'Bai Jamjuree', Sans-Serif;
+}
+    .computer{
+    padding-top:50px;
+  width:100%;
+}
+.computer-2{
+  padding-top:50px;
+  width:100%;
+}
+p{
+  font-size:15px;
+  text-align: center;
+}
+.container{
+
+  padding:20px;
+}
+.container p{
+  color:hsl(201, 11%, 66%);
+}
+.head{
+ /* text-indent:30px;*/
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top:15px;
+}
+.keep{
+  padding-top:100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.logo{
+  width:200px;
+  padding-left:100px;
+  padding-bottom:30px;
+}
+.ios{
+  background:hsl(171, 66%, 44%);
+  width:90%;
+  padding:15px;
+  border-radius:70px;
+  margin:15px 15px;
+  text-align: center;
+}
+.mac{
+  background: hsl(233, 100%, 69%);
+  width:90%;
+  padding:15px;
+  text-align: center;
+    border-radius:70px;
+  margin:15px 15px;
+}
+.group{
+  text-align: center;
+}
+.group h3{
+  padding-top:30px;
+}
+.group p{
+  padding-top:10px;
+}
+.newlogo{
+  padding-top:50px;
+  padding-bottom:25px;
+  padding-left:120px;
+}
+.flow{
+  padding-top:70px;
+}
+.flow h3,p{
+  text-align: center;
+  padding:10px 10px 0px 0px;
+}
+.companies{
+  padding-top:110px;
+  text-align: center;
+}
+.companies img{
+  width:40%;
+  padding-bottom:50px;
+}
+.repeat{
+  padding-bottom: 60px;
+}
+
+footer{
+  background: hsl(201, 11%, 66%);
+ padding:40px;
+  
+  text-align:center ;
+}
+footer p{
+  padding-bottom: 22px;
+}
+footer img{
+  padding-bottom: 20px;
+  width:40px;
+}
+.footer-image{
+  padding-top:19px ;
+}
+.footer-image img{
+  width:45px;
+  padding:10px;
+}
+
+
+  @media only screen and (min-width:992px){
+    body{
+      background: hsl(0, 0%, 100%);
+    }
+    .container{
+      transform: translateY(37px);
+      margin:2rem auto;
+      background: #fff;
+      max-width:80%;
+      text-align: center;
+      font-size: 19px;
+    }
+  .logo-div{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-left:-3.45rem;
+  }
+  .head-div{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .inner-head-div{
+    text-align:center;
+  }
+  .inner-head-div p{
+    max-width:36.5rem;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  .ios{
+    height:23%;
+    width: 23%;
+  }
+  .mac{
+    height:23%;
+    width:23%;
+  }
+  .media{
+    padding-bottom: 60px;
+    padding-top:30px;
+     display:flex;
+     justify-content: center;
+   } 
+   .outer-keep{
+     display:flex;
+     justify-content: center;
+   }
+   .inner-keep{
+     text-align: center;
+   }
+   .para {
+     max-width:60rem;
+     margin-right: auto;
+     margin-left:auto;
+     text-indent:20px;
+   }
+   .comp-group{
+     height:550px;
+     padding-top:40px;
+     
+     display:flex;
+     
+   }
+   
+   .group{
+     
+    min-height:1000px;
+ margin-left:-10px;
+   padding-left:100px;
+   padding-top:40px;
+     width:40%;
+     padding-top:80px;
+     
+   }
+   
+
+ .group p,h3{
+   text-align:left;
+ }
+   .computer{
+     
+     margin-left:-20px;
+  /*  height:550px;*/
+     width:55%;
+   }
+   .access{
+     padding-top:10px;
+     padding-bottom: 65px;
+     display:flex;
+     justify-content: center;
+   }
+   .inner-access{
+     text-align: center;
+   }
+   .inner-access p{
+     max-width:46rem;
+     margin-right: auto;
+     margin-left:auto;
+   }
+   .computer-2{
+     height: 100%;
+     
+     width:700px;
+     
+   }
+   .outer-flow{
+     display:flex;
+     justify-content: center;
+   }
+   .inner-flow{
+     
+     text-align: center;
+   }
+   .inner-flow p{
+max-width:35rem;
+margin-right:auto ;
+margin-left:auto;
+   }
+ .flow{
+   font-size: 16px;
+   margin-right:80px;
+   margin-left:80px;
+   display: flex;
+   justify-content: space-between;
+ }  
+ .new-logo-div a{
+   display:flex;
+   justify-content:center ;
+   align-content: center;
+   margin-left:-5rem;
+   margin-bottom: -2.5rem;
+ }
+ .new-logo-div{
+   display:flex;
+   justify-content:center ;
+   align-content: center;
+   margin-left:-5rem;
+ }
+ .new{
+   margin-top:-0.5rem;
+ }
+ .first-flow{
+   text-align:center;
+   padding-right: 10px;
+ }.
+ .first-flow p{
+   max-width:60rem;
+   
+ }
+ .second-flow{
+ text-align:center;
+   padding-right: 10px;
+ }
+ .second-flow p{
+   max-width: 60rem;
+ }
+ .third-flow{
+  /* width:33.3%;*/
+ }
+ .companies{
+   margin-right: 80px;
+   margin-left:80px;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   margin-bottom: 10px;
+ }  
+ .companies img{
+   max-width:115px;
+ }
+  .board{
+    padding-bottom: 10px;
+    padding-top:50px;
+    display:flex;
+    justify-content: center;
+    
+  } 
+  
+ .inner-board {
+   text-align: center;
+   
+ }  
+   .inner-board p{
+     max-width:60rem;
+     margin-right: auto;
+     margin-left:auto;
+   }
+   
+  .repeat{
+    padding-bottom: 60px;
+    padding-top:30px;
+     display:flex;
+     justify-content: center;
+  } 
+
+footer{
+margin:2rem auto;
+/*padding:17px 60px;*/
+      background:hsl(201, 11%, 66%) ;
+      color
+     padding-right:-5rem;
+      padding-left:80px;
+      max-width:80%;
+      height:100%;
+      font-size: 16px;
+      display:flex;
+      /*justify-content: space-between;*/
+      
+      align-content:center ;
+
+}
+.overall{
+  
+ padding-top:20px;
+  padding-left:60px;
+  padding-right:320px;
+display:flex;
+justify-content: center;
+align-content: center;
+}
+.first-image{
+ 
+  padding-right:20px;
+ padding-top:30px;
+  padding-left:20px;
+}
+.first-image img{
+  width:60px;
+}
+.footer-image{
+ 
+  padding-top:45px;
+}
+.faq{
+  padding-right:25px;
+  line-height:1.7;
+  
+}
+.gap{
+  margin-left:-2.8rem;
+}
+.kit{
+  margin-left:-2.6rem;
+}
+.policy{
+  line-height:1.7;
+  padding-right:25px;
+  
+}
+.guide{
+    line-height:1.7;
+}
+.footer-image img{
+  
+ width:40px;
+ padding-right:15px;
+}
